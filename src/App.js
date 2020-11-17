@@ -1,24 +1,44 @@
 import logo from './logo.svg';
 import './App.css';
 
+ 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       <h3>CREATE A TEST</h3>
+       <form>
+       <label>
+       Question:
+      <input
+        type="text"
+        name="question"
+        placeholder="Enter your  question...."
+        // onChange={handleInputChange}
+        // value={questionForm.question}
+        className="question-input"
+      />
+      </label>
+      <br/>
+      <label>
+      options:
+      <input
+        type="text"
+        placeholder="Add the answer to the question..."
+        // value={questionForm.answer}
+        // onChange={handleInputChange}
+        className="question-input"
+        name="answer"
+      />
+      </label>
+      <br/>
+      <input type="submit" value="Submit"/>
+      </form>
+      <div classname="app-test">
+        <button value="Start the Test">Start the test</button>
+      </div>
+      
+    </div> 
+  
   );
 }
 

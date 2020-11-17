@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  background-color:skyblue
+  
 }
-
+.app-test{
+  button-color:red;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
